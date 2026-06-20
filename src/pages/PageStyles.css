@@ -1,0 +1,52 @@
+/* General page container */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 1s ease-in-out;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Unique backgrounds */
+.skills-page {
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+}
+.projects-page {
+  background: linear-gradient(135deg, #283c86, #45a247);
+}
+.contact-page {
+  background: linear-gradient(135deg, #373b44, #4286f4);
+}
+
+/* Titles */
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Content list */
+.content-list {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+/* Content text */
+.content-text {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

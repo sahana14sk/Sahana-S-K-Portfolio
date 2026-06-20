@@ -1,0 +1,97 @@
+/* Full screen background image */
+body {
+  margin: 0;
+  background-image: url('/background.jpg');
+  background-repeat: no-repeat;
+  background-size:80% auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000; /* fallback color */
+}
+
+
+/* Semi-transparent overlay */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+  padding: 20px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Card-style layout */
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Profile picture */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+  margin-bottom: 20px;
+}
+
+/* Name styling */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-links a {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0056b3;
+}
+
+/* Animation */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
