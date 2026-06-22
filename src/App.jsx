@@ -14,7 +14,7 @@ import ProjectsPage from "./pages/HProjects";
 import Photography from "./pages/photography";
 import Hackathons from "./pages/Hackathons";
 import Projects from "./pages/Projects";
-import Leadership from "./pages/LeadershipTemp";
+import Leadership from "./pages/Leadership";
 import { Mail, Linkedin, Github } from "lucide-react";
 
 
