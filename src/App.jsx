@@ -372,10 +372,8 @@ I am currently looking for opportunities to contribute, learn, and grow as a tec
       Seeking opportunities to build, learn, and make an impact.
     </p>
 
-  <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=44sahana.s.k@gmail.com&su=Portfolio%20Inquiry"
-  target="_blank"
-  rel="noopener noreferrer"
+<a
+  href="mailto:44sahana.s.k@gmail.com?subject=Portfolio%20Inquiry"
   className="primary-contact"
 >
   Let’s Connect →

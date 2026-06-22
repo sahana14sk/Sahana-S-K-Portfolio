@@ -1542,6 +1542,29 @@ html {
 
   min-height: 32px;          /* prevents jump */
 }
+
+@media (max-width: 768px) {
+  .photo-caption {
+    width: auto;
+    left: 25px;
+    text-align: left;
+    padding-left: 15px;
+    bottom: 22cap;
+  }
+
+  .photo-caption::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 3px;
+    height: 22px;
+    background: #ff4d4d;
+    border-radius: 2px;
+  }
+}
+
+
 /* ===== END OF JOURNEY ===== */
 
 .journey-end {
@@ -3099,4 +3122,21 @@ html {
     padding: 8px 12px;
   }
 
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .photo-card {
+    width: 100%;
+  }
+
+  .caption {
+    font-size: 16px;
+  }
+
+  .contact-email {
+    word-break: break-word;
+  }
 }
